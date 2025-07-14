@@ -1,22 +1,22 @@
-# 🏓 Pong Game
+# 🏓 Pong Game with Computer AI
 
-> A classic Pong game built in Java! Relive the nostalgia of one of the earliest video games with this simple yet fun implementation.
+> A classic Pong game in Java featuring a single-player mode where you compete against a computer-controlled paddle.
 
 ---
 
 ## 🎮 Game Overview
 
-Pong is a two-dimensional sports game that simulates table tennis. Players control paddles and try to bounce the ball past their opponent to score points.
+This Pong game lets you play against an AI opponent. Use your paddle to bounce the ball back and score points while the computer tries to outplay you!
 
 ---
 
 ## 🚀 Features
 
-- 🎯 Two-player mode (local multiplayer)  
-- 🕹️ Simple keyboard controls (W/S and Up/Down arrows)  
-- ⚡ Smooth ball movement with collision detection  
-- 🏆 Score tracking and display  
-- 🎨 Basic but clean graphics  
+- 🤖 Single-player mode vs. computer AI  
+- 🕹️ Smooth paddle and ball movement  
+- 🎯 Basic AI logic for computer paddle movement  
+- 🏆 Score tracking and game reset  
+- 🎨 Simple and clean graphics  
 
 ---
 
@@ -24,21 +24,21 @@ Pong is a two-dimensional sports game that simulates table tennis. Players contr
 
 ### Prerequisites
 
-- Java JDK 8 or higher  
-- (Optional) An IDE such as IntelliJ IDEA, Eclipse, or VSCode  
+- Java JDK 8 or above installed  
+- (Optional) IDE like IntelliJ IDEA, Eclipse, or VSCode  
 
 ### How to Run
 
-1. Compile the Java files:
+1. Compile the Java source code:
 
     ```bash
-    javac PongGame.java
+    javac PongWithComputer.java
     ```
 
 2. Run the game:
 
     ```bash
-    java PongGame
+    java PongWithComputer
     ```
 
 ---
@@ -47,14 +47,15 @@ Pong is a two-dimensional sports game that simulates table tennis. Players contr
 
 | Player | Keys         |
 |--------|--------------|
-| Player 1 | `W` (up), `S` (down) |
-| Player 2 | `Up Arrow` (up), `Down Arrow` (down) |
+| Player | `W` (up), `S` (down) |
+
+The computer paddle moves automatically to track the ball.
 
 ---
 
 ## 📸 Screenshot
 
-![Pong Screenshot](screenshot.png)
+![Pong with Computer Screenshot](screenshot.png)
 
 ---
 
